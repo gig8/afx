@@ -30,7 +30,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://sycamorecorp.appfolio.com/*"
+        "https://*.appfolio.com/*"
       ],
       "css": [
         "src/inject/inject.css"
@@ -38,7 +38,7 @@
     },
     {
       "matches": [
-        "https://sycamorecorp.appfolio.com/*"
+        "https://*.appfolio.com/*"
       ],
       "js": [
         "src/inject/inject.js"
